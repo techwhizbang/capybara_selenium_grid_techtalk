@@ -1,0 +1,3 @@
+default: --format progress --strict --tags ~@wip features
+wip: --tags @wip:3 --wip features
+rerun: --format progress features --format rerun --out rerun.txt --strict --tags ~@wip
